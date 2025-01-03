@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookTopia</title>
+
+    <!--bootsrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+    <!--header-->
+    <div class="container my-4">
+        <div class="title">BookTopia</div>
+    </div>
+
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container">
+          <img src="img/bookLogo.png" alt="RMS logo" width="60px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="review.html">Write Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="list.html">Your Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+              </li>
+            </ul>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+              <label class="form-check-label" for="darkModeToggle" id="themeLabel">Dark Mode</label>
+          </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--content-->
+      <div class="container my-4">
+        <div class="title text-center">About BookTopia</div>
+    </div>
+
+    <div class="container-fluid mb-3">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card my-2 border-0 card_transparent shadow">
+            <div class="card-body">
+              <legend>Elements in BookTopia</legend>
+              <p class="content mt-5" style="font-weight:bold">Home</p>
+              <p class="content mt-5" style="text-align: justify;">For the website BookTopia, I utilized Bootstrap for its responsive design capabilities. The dashboard features dynamic and engaging graphs for visualizing and interpreting data. For tracking progress, I incorporated animated stripes and multi-colored stripes, allowing users to quickly grasp the differences. Tasks can be efficiently managed with the help of checkboxes for marking task completion progress. Additionally, I've cleverly integrated a 'full topic' button featuring a link to a related website. Lastly, I've implemented the collapse function for quote sections, creating a user-friendly interface.</p>
+              
+              <p class="content mt-5" style="font-weight:bold">Write review</p>
+              <p class="content mt-5" style="text-align: justify;">For creating write review contents, I have optimized the layout with a 'card body' structure, enabling users to easily input a title and review. A rating star system is also included for users to express their evaluations. On the right side, an eye-catching 'quote card' is placed, featuring a quote from a famous individual alongside an image, adding a touch of inspiration and visual appeal."</p>
+
+              <p class="content mt-5" style="font-weight:bold">Your review</p>
+              <p class="content mt-5" style="text-align: justify;">I have added five distinct data points that users can edit, view, and delete as needed. Additionally, I have incorporated font-awesome icons to enrich the content's visual representation. This approach allows users to easily understand and navigate through the provided information with a visually appealing interface.</p>
+
+              <p class="content mt-5" style="font-weight:bold">Profile</p>
+              <p class="content mt-5" style="text-align: justify;">In the profile section, I have added a flying book gif, creating an engaging and visually appealing element. On the right side, I have employed a 'card body' design, allowing users to edit their profile information and easily save their changes. For a streamlined date selection process, I have integrated the data picker element, enabling users to conveniently and accurately choose their desired date.</p>
+
+            </div>
+            
+
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-2 border-0 card_transparent shadow">
+            <div class="card-body">
+              <legend class="text-center">About Me</legend>
+              <img src="img/irsalina.jpg" class="rounded mx-auto d-block" alt="..." width="200px">
+              <p class="content mt-5" style="font-weight:bold">Name</p>
+              <p class="content" style="text-align: justify;">Nur Irsalina Iwani binti Mohd Irewan</p>
+              <p class="content mt-1" style="font-weight:bold">Group</p>
+              <p class="content" style="text-align: justify;">CDIM2455ST2</p>
+              <p class="content mt-1" style="font-weight:bold">Student ID</p>
+              <p class="content" style="text-align: justify;">2022675364</p>
+              <p class="content mt-1" style="font-weight:bold">Lecturer</p>
+              <p class="content" style="text-align: justify;">Dr. Muhammad Asyraf bin Wahi Anuar</p> 
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+
+
+      <!--footer-->
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="title_footer">
+                <p>BOOKTOPIA</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-1 box_small blue"><i class="menu-icon fa-solid fa-pen-nib"></i></div>
+              <div class="col-1 box_small blue"><i class="menu-icon fa-solid fa-face-smile"></i></div>
+              <div class="col-1 box_small blue"><i class="menu-icon fa-solid fa-gift"></i></div>
+              <div class="col-1 box_small blue"><i class="menu-icon fa-solid fa-gear"></i></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <legend>WORK WITH US</legend>
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-phone"></i></button>
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-brands fa-instagram"></i></button>
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-brands fa-tiktok"></i></button>
+              
+            </div>
+            <div class="text-center mt-3">
+                <p>Copyright @ 2024 BookTopia. All rights reserved. Powered by Literary Spirit.</p>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+      <!--bootstrap js CDN-->
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <!--darkmode script-->
+     <script>
+        function setTheme(theme){
+            document.documentElement.setAttribute("data-bs-theme", theme);
+            localStorage.setItem("theme",theme);
+            document.getElementById("themeLabel").innerText =
+                theme === "dark" ? "Dark Mode On" : "Dark Mode Off";
+        }
+  
+        document
+        .getElementById("darkModeToggle")
+        .addEventListener("change", function (event) {
+            if (event.target.checked) {
+                setTheme("dark");
+            } else {
+                setTheme("");
+            }
+        });
+  
+        window.onload = function () {
+            let savedTheme = localStorage.getItem("theme");
+            if(savedTheme) {
+                setTheme(savedTheme);
+                if(savedTheme === "dark") {
+                    document.getElementById("darkModeToggle").checked = true;
+                }
+            }
+        }
+  
+    </script>
+
+
+      
+      </body>
+      </html>
+    
